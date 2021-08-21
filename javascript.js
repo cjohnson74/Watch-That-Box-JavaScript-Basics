@@ -15,5 +15,13 @@ document.getElementById("button4").addEventListener("click", function(){
 
 });
 document.getElementById("button5").addEventListener("click", function(){
-    document.getElementById("box").style = "height:150px; width:150px; background-color:orange; margin:25px"
+    document.getElementById("heading").style.textAlign = "center"
+});
+document.getElementById("button6").addEventListener("click", function(){
+    document.getElementById("body").style.backgroundColor = "red"
+});
+document.getElementById("button7").addEventListener("click", function(){
+    document.getElementById("box").style = "height:150px; width:150px; background-color:orange; margin:25px";
+    document.getElementById("heading").style.textAlign = "left"
+    document.getElementById("body").style.backgroundColor = "white"
 });
